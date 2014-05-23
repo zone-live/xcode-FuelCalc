@@ -1,0 +1,23 @@
+
+view{
+-ios-style-guide-visible: false;
+}
+#view{
+background-color: #3f3f3f;
+}   
+viewcontroller#view,
+viewcontroller#view > view,
+viewcontroller#view > view > view {
+-ios-style-guide-visible: true;
+}
+
+button:nth-of-type(1) {
+width:95%;
+left:2.5%;
+bottom:115px;
+background-color: #6a79b0;
+font-family:tahoma;
+color:white;
+text-align: center;
+box-shadow:0px 2px #253270;
+}
